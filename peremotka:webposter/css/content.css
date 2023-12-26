@@ -1,0 +1,939 @@
+body {
+    width: 110vw;
+    overflow-x: hidden;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    background: #000000;
+}
+
+/*intro*/
+.intro{
+    width: 100vw;
+    height: 55vw;
+}
+
+h1{
+    font-family: 'NeutralFaceBold', sans-serif;
+    color: white;
+}
+
+h2{
+    font-family: 'NeutralFace', sans-serif;
+    color: white;
+}
+
+h3{
+    font-family: 'NeutralFace', sans-serif;
+    color: black;
+}
+
+.pere1{
+    font-size: 17.7vw;
+    font-weight: 700;
+    margin-left: 7vw;
+}
+
+.pere2{
+    font-size: 17.7vw;
+    font-weight: 700;
+    margin-left: 42vw;
+}
+
+.pere3{
+    font-size: 17.7vw;
+    font-weight: 700;
+    margin-left: 43vw;
+}
+
+.smallwheel{
+    width: 32vw;
+    height: 32vw;
+    margin-top: -33vw;
+    margin-left: 4.5vw;
+}
+
+.imgnumber{
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.cruzhokwheel{
+    margin-top: -29vw;
+    margin-left: 3vw;
+    width: 26vw;
+    height: 25vw;
+}
+
+.imgcruzhok{
+    animation: rotation1 3s infinite linear;
+}
+
+@keyframes rotation1{
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.smalltext{
+    font-family: 'Neutral Face';
+    font-size: 2.1vw;
+    font-weight: 400;
+    margin-left: 8vw; 
+    margin-top: -15vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 17vw;
+    height: 6vw;
+    rotate: -15deg;
+}
+
+.firstcruzhok{
+    margin-top: -49vw;
+    margin-left: 60vw;
+    width: 30.7vw;
+    height: 30.7vw;
+}
+
+.img1st{
+    animation: rotation2 3s infinite linear;
+}
+
+@keyframes rotation2{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.secondcruzhok{
+    margin-top: -27.8vw;
+    margin-left: 63vw;
+    width: 24.7vw;
+    height: 24.7vw;
+}
+
+.img2nd{
+    animation: rotation3 11s infinite linear;
+} 
+
+@keyframes rotation3{
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.thirdcruzhok{
+    margin-top: -21.5vw;
+    margin-left: 66.1vw;
+    width: 18.3vw;
+    height: 18.3vw;
+}
+
+.img3rd{
+    animation: rotation4 5s infinite linear;
+} 
+
+@keyframes rotation4{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.cruzhokblack{
+    width: 13vw;
+    height: 13vw;
+    margin-top: -24.8vw;
+    margin-left: 66.3vw;
+}
+
+.sublack{
+    animation: rotation5 5s infinite linear;
+}
+
+@keyframes rotation5{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.bigtext{
+    font-family: 'Neutral Face';
+    font-size: 2.1vw;
+    font-weight: 400;
+    margin-left: 66.5vw; 
+    margin-top: 1vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 17vw;
+    height: 6vw;
+    rotate: 15deg;
+}
+
+
+
+/*cometous*/
+.cometous{
+    width: 100vw;
+    height: 37.55vw;
+}
+
+.djtext1{
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-left: 8.5vw; 
+    margin-top: -28.3vw;
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+    text-align: right;
+    width: 8.7vw;
+    height: 4.3vw;
+}
+
+.djtext2{
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-left: 5.3vw; 
+    margin-top: 1.8vw;
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+    text-align: right;
+    width: 9.8vw;
+    height: 3vw;
+}
+
+.djtext3{
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-left: 4.3vw; 
+    margin-top: 4.5vw;
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+    text-align: right;
+    width: 9.8vw;
+    height: 1.5vw;
+}
+
+.djtext4{
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-left: 5vw; 
+    margin-top: 3.9vw;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    width: 12vw;
+    height: 3.3vw;
+}
+
+.djtext5{
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-left: 81vw; 
+    margin-top: -20.8vw;
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+    text-align: left;
+    width: 9.8vw;
+    height: 3.5vw;
+}
+
+.djtext6{
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-left: 82vw; 
+    margin-top: 1.2vw;
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+    text-align: left;
+    width: 9.8vw;
+    height: 3.1vw;
+}
+
+.djtext7{
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-left: 81.7vw; 
+    margin-top: 2.7vw;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 14vw;
+    height: 3vw;
+}
+
+.djtext8{
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-left: 81vw; 
+    margin-top: 4.1vw;
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+    text-align: left;
+    width: 8.2vw;
+    height: 2.8vw;
+}
+
+.regulation{
+    width: 5.4vw;
+    height: 9vw;
+    margin-left: 23.8vw; 
+    margin-top: -15.5vw;
+}
+
+.reg1{
+    animation: anireg1 5s linear infinite;
+}
+
+@keyframes anireg1{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-180deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.regulation2{
+    width: 11.3vw;
+    height: 11.3vw;
+    margin-left: 64.8vw; 
+    margin-top: -9vw;
+}
+
+.reg2{
+    animation: anireg2 5s linear infinite;
+}
+
+@keyframes anireg2 {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.rectangle1{
+    width: 3.1vw;
+    height: 4.9vw;
+    margin-left: 40.6vw; 
+    margin-top: -15vw;
+    position: relative;
+    animation: anirec1 3s infinite alternate;
+}
+
+@keyframes anirec1{
+    0% {top:0%}
+    100% {top:46%}
+}
+
+.rectangle2{
+    width: 3.1vw;
+    height: 4.9vw;
+    margin-left: 48.5vw; 
+    margin-top: -5vw;
+    position: relative;
+    animation: anirec2 3s infinite alternate;
+}
+
+@keyframes anirec2{
+    0% {top:46%}
+    100% {top:0%}
+}
+
+.rectangle3{
+    width: 3.1vw;
+    height: 4.9vw;
+    margin-left: 56.4vw; 
+    margin-top: -5vw;
+    position: relative;
+    animation: anirec3 3s infinite alternate;
+}
+
+@keyframes anirec3{
+    0% {top:0%}
+    100% {top:46%}
+}
+
+
+
+/*disk*/
+.disk{
+    width: 42.5vw;
+    height: 37.2vw;
+}
+
+.diskwhite{
+    width: 32vw;
+    height: 35vw;
+    margin-top: 40vw;
+}
+
+.maindisk{
+    width: 34.5vw;
+    margin-top: -37.5vw;
+    margin-left: 4vw;
+}
+
+.maindiskblack{
+    animation: rotation6 5s infinite linear;
+}
+
+.maindiskblack:hover{
+    animation-play-state: paused;
+}
+
+@keyframes rotation6 {
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+
+
+/*provestianalysis*/
+.provestianalysis{
+    width: 57vw;
+    height: 39.9vw;
+    margin-top: -37.25vw;
+    margin-left: 42.9vw;
+}
+
+.provesti{
+    font-size: 3.8vw;
+    font-weight: 700;
+    margin-top: -38vw;
+    margin-left: 2vw;
+    width: 21.5vw;
+}
+
+.cubes{
+    margin-left: 2.1vw;
+    margin-top: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    width: 51.5vw;
+    justify-content: space-between;
+}
+
+.cube{
+    width: 5vw;
+    height: 5vw;
+    animation: cubecor1 2s infinite ease-in-out;
+    border-radius: 5px;
+}
+
+@keyframes cubecor1 {
+    0%{background-color: #ffffff; }
+    50%{background-color: #48E2DC; }
+    100%{background-color: #ffffff; }
+}
+
+.cube2{
+    width: 5vw;
+    height: 5vw;
+    animation: cubecor2 2s infinite ease-in-out;
+    border-radius: 5px;
+}
+
+@keyframes cubecor2 {
+    0%{background-color: #FD4B28; }
+    50%{background-color: #ffffff; }
+    100%{background-color: #FD4B28; }
+}
+
+.cube3{
+    width: 5vw;
+    height: 5vw;
+    animation: cubecor3 2s infinite ease-in-out;
+    border-radius: 5px;
+}
+
+@keyframes cubecor3 {
+    0%{background-color: #ffffff; }
+    50%{background-color: #48E2DC; }
+    100%{background-color: #ffffff; }
+}
+
+.cube4{
+    width: 5vw;
+    height: 5vw;
+    animation: cubecor4 2s infinite ease-in-out;
+    border-radius: 5px;
+}
+
+@keyframes cubecor4 {
+    0%{background-color: #FD4B28; }
+    50%{background-color: #ffffff; }
+    100%{background-color: #FD4B28; }
+}
+
+.cube5{
+    width: 5vw;
+    height: 5vw;
+    animation: cubecor5 2s infinite ease-in-out;
+    border-radius: 5px;
+}
+
+@keyframes cubecor5 {
+    0%{background-color: #ffffff; }
+    50%{background-color: #48E2DC; }
+    100%{background-color: #ffffff; }
+}
+
+.analysis{
+    font-size: 3.8vw;
+    font-weight: 700;
+    margin-top: 3vw;
+    margin-left: 36.8vw;
+    width: 16.5vw;
+}
+
+.life{
+    font-size: 3.8vw;
+    font-weight: 700;
+    margin-top: 16.5vw;
+    margin-left: 11.5vw;
+    width: 14.5vw;
+}
+
+.white1{
+    height: 4.3vw;
+    width: 4.3vw;
+    margin-top: -16.7vw;
+    margin-left: 2.2vw;
+}
+
+.whitereg1{
+    animation: rotation7 5s infinite linear;
+}
+
+@keyframes rotation7{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-180deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.white2{
+    height: 4.3vw;
+    width: 4.3vw;
+    margin-top: -4.3vw;
+    margin-left: 8.85vw;
+}
+
+.whitereg2{
+    animation: rotation8 5s infinite linear;
+}
+
+@keyframes rotation8{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.white3{
+    height: 4.3vw;
+    width: 4.3vw;
+    margin-top: -4.4vw;
+    margin-left: 15.4vw;
+}
+
+.whitereg3{
+    animation: rotation9 5s infinite linear;
+}
+
+@keyframes rotation9{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-180deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.white4{
+    height: 4.3vw;
+    width: 4.3vw;
+    margin-top: -4.4vw;
+    margin-left: 22vw;
+}
+
+.whitereg4{
+    animation: rotation10 5s infinite linear;
+}
+
+@keyframes rotation10{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.white5{
+    height: 4.3vw;
+    width: 4.3vw;
+    margin-top: 2.5vw;
+    margin-left: 2.2vw;
+}
+
+.whitereg5{
+    animation: rotation11 5s infinite linear;
+}
+
+@keyframes rotation11{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.white6{
+    height: 4.3vw;
+    width: 4.3vw;
+    margin-top: -4.3vw;
+    margin-left: 8.85vw;
+}
+
+.whitereg6{
+    animation: rotation12 5s infinite linear;
+}
+
+@keyframes rotation12{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-180deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.white7{
+    height: 4.3vw;
+    width: 4.3vw;
+    margin-top: -4.4vw;
+    margin-left: 15.4vw;
+}
+
+.whitereg7{
+    animation: rotation13 5s infinite linear;
+}
+
+@keyframes rotation13{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.white8{
+    height: 4.3vw;
+    width: 4.3vw;
+    margin-top: -4.3vw;
+    margin-left: 22vw;
+}
+
+.whitereg8{
+    animation: rotation14 5s infinite linear;
+}
+
+@keyframes rotation14{
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-180deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.panel{
+    width: 20vw;
+    height: 45vh;
+    display: block;
+    margin-left: 32vw;
+    margin-top: -24vh;
+    position: relative;
+    animation: hugepanel 5s steps(5) infinite;
+    animation-play-state: paused;
+}
+
+.panel{
+    width: 20vw;
+    height: 45vh;
+}
+
+.hugepanel:hover{
+    animation-play-state: running;
+}
+
+@keyframes hugepanel{
+    0%{background-position: 0Vw 0vw; }
+    20%{background-position: -20% 0vw; }
+    40%{background-position: -50% 0vw; }
+    60%{background-position: -100% 0vw; }
+    80%{background-position: -150% 0vw; }
+    100%{background-position: 0vw -190%; }
+}
+
+
+
+/*gif*/
+.gif{
+    width: 100vw;
+    height: 121vh;
+    margin-top: 6vh;
+    margin-block-end: 10vh;
+}
+
+.l1{
+    width: 40.5vw;
+    margin-left: -9vw;
+}
+
+.l1ani{
+    animation: rotation15 8s infinite linear;
+}
+
+@keyframes rotation15{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(10deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.l2{
+    width: 40.5vw;
+    margin-left: -5.2vw;
+    margin-top: -36.69vw;
+}
+
+.l2ani{
+    animation: rotation16 7s infinite linear;
+}
+
+@keyframes rotation16{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-11deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(11deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.l3{
+    width: 40.5vw;
+    margin-left: -1vw;
+    margin-top: -28.8vw;
+}
+
+.l3ani{
+    animation: rotation17 6s infinite linear;
+}
+
+@keyframes rotation17{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-12deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(12deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.l4{
+    width: 40.5vw;
+    margin-left: 2.6vw;
+    margin-top: -20.7vw;
+}
+
+.l4ani{
+    animation: rotation18 5s infinite linear;
+}
+
+@keyframes rotation18{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-13deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(13deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.l5{
+    width: 40.5vw;
+    margin-left: 6.1vw;
+    margin-top: -13.6vw;
+}
+
+.r1{
+    width: 40.5vw;
+    margin-left: 67.6vw;
+    margin-top: -25vw;
+}
+
+.r1ani{
+    animation: rotation19 8s infinite linear;
+}
+
+@keyframes rotation19{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(10deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.r2{
+    width: 40.5vw;
+    height: 40.5vw;
+    margin-left: 71.5vw;
+    margin-top: -36.8vw;
+}
+
+.r2ani{
+    animation: rotation20 7s infinite linear;
+}
+
+@keyframes rotation20{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-11deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(11deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.r3{
+    width: 40.5vw;
+    height: 40.5vw;
+    margin-left: 75.6vw;
+    margin-top: -36.4vw;
+}
+
+.r3ani{
+    animation: rotation21 6s infinite linear;
+}
+
+@keyframes rotation21{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-12deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(12deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.r4{
+    width: 40.5vw;
+    height: 40.5vw;
+    margin-left: 79.3vw;
+    margin-top: -36.8vw;
+}
+
+.r4ani{
+    animation: rotation22 5s infinite linear;
+}
+
+@keyframes rotation22{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-13deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(13deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.r5{
+    width: 40.5vw;
+    margin-left: 82.8vw;
+    margin-top: -37vw;
+}
+
+.giftext1{
+    margin-left: -3vw;
+    margin-top: -31.3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.text1{
+    font-size: 7.5vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+.giftext2{
+    margin-left: -12vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.text2{
+    font-size: 8vw;
+    font-weight: 700;
+    text-align: center;
+    line-height: 10.6vw;
+    margin-left: 11vw;
+}
+
+
+
+/*cassettes*/
+.cassettes{
+    margin-top: -45vh;
+    margin-block-end: 10vh;
+    overflow: hidden;
+}
+
+.allcas{
+    white-space: nowrap;
+    animation: lin3 15s linear infinite;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    animation-play-state: running;
+}
+
+.allcas:hover{
+    animation-play-state: paused;
+}
+
+@keyframes lin3{
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(-176%);}
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8{
+    padding-right: 3vw;
+}
+
+
+
+/*closing*/
+.closing{
+    overflow: hidden;
+    height: 100vh;
+}
+
+.become{
+    font-size: 20vw;
+    font-weight: 700;
+    height: 55vh;
+    display: flex;
+    white-space: nowrap;
+    animation: lin1 15s linear infinite;
+}
+
+@keyframes lin1{
+    0% {transform: translateX(0%);}
+    50% {transform: translateX(-310%);}
+    100% {transform: translateX(0%);}
+}
+
+.yourpast{
+    font-size: 20vw;
+    font-weight: 700;
+    font-size: 20vw;
+    font-weight: 700;
+    height: 55vh;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    white-space: nowrap;
+    margin-top: -10vh;
+    animation: lin2 15s linear infinite;
+}
+
+@keyframes lin2{
+    0% {transform: translateX(0%);}
+    50% {transform: translateX(310%);}
+    100% {transform: translateX(0%);}
+}
+
+.finaltext{
+    font-size: 2vw;
+    margin-left: 5vw;
+    margin-top: -12vh;
+}
+
+.lastimg{
+
+    width: 18vw;
+    height: 28vh;
+    display: flex;
+    justify-content: right;
+    margin-left: 82vw;
+    margin-top: -23vh;
+}
